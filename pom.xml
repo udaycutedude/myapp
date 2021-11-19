@@ -20,6 +20,12 @@
 		 <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+	<distributionManagement>
+        <repository>
+        <id>central</id>
+        <name>ip-172-31-45-252.ap-southeast-2.compute.internal-releases</name>
+        <url>http://3.25.236.175:8081/artifactory/myapp-libs-release-local</url>
+        </repository>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
