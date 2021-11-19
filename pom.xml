@@ -10,7 +10,8 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.1</version>
+	<version>${BUILD_NUMBER}</version>
+	<classifier>${BUILD_NUMBER}</classifier>
 	<packaging>jar</packaging>
 
 	<name>demo</name>
