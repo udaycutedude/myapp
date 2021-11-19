@@ -26,6 +26,13 @@
         <name>ip-172-31-45-252.ap-southeast-2.compute.internal-releases</name>
         <url>http://3.25.236.175:8081/artifactory/myapp-libs-release-local</url>
         </repository>
+
+        <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-45-252.ap-southeast-2.compute.internal-snapshots</name>
+        <url>http://3.25.236.175:8081/artifactory/myapp-libs-snapshot-local</url>
+        </snapshotRepository>
+		
 	</distributionManagement>
 	<dependencies>
 		<dependency>
