@@ -11,5 +11,10 @@ public class FunRestController {
 	{
 		return "hello world" + LocalDateTime.now();
 	}
+	@GetMapping("/githublessons")
+	public String githubstatus()
+	{
+		return "github concept is done" + LocalDateTime.now();
+	}
 
 }
